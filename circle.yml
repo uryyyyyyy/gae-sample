@@ -1,11 +1,6 @@
 machine:
   environment:
-    GO_VERSION: "1.8.3"
-  post:
-    - bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
-    - source ~/.gvm/scripts/gvm
-    - gvm install go${GO_VERSION} -B
-    - gvm use go${GO_VERSION} --default
+    HOGE: "aa" #for avoiding circle CI format error
 
 dependencies:
   override:
