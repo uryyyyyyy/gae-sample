@@ -1,6 +1,6 @@
 machine:
   environment:
-    HOGE: "aa"
+    HOGE: "aa" #for avoiding circle CI format error
 
 dependencies:
   override:
