@@ -2,6 +2,7 @@ machine:
 
 dependencies:
   override:
+    - sudo chmod 777 /opt/
     - yes | gcloud components install app-engine-go
     - ./commands/setup.sh
     - ./commands/glide_update.sh
