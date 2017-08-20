@@ -1,0 +1,13 @@
+machine:
+
+dependencies:
+  pre:
+    - make setup
+  override:
+    - yes | gcloud components install app-engine-go
+    - ./commands/setup.sh
+    - ./commands/glide_update.sh
+
+test:
+  override:
+    - ./commands/sample1_test.sh
