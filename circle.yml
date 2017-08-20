@@ -1,4 +1,6 @@
 machine:
+  environment:
+    HOGE: "aa"
 
 dependencies:
   override:
