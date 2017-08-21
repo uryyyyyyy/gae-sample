@@ -2,7 +2,7 @@ package sample1
 
 import (
 	"testing"
-	"appengine/aetest"
+	"google.golang.org/appengine/aetest"
 	"strings"
 	"net/http/httptest"
 	"google.golang.org/appengine"
