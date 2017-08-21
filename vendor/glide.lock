@@ -1,6 +1,8 @@
-hash: 9fe26e703b70223a6f8b4ab815458c0ad0a1c1f199bb091f13d4165dc79ea5aa
-updated: 2017-08-21T15:05:29.136189687+09:00
+hash: 0843d496952af3c10680897f530353eed9279c0f10778fdc03ce885c3ad3ed5f
+updated: 2017-08-21T15:12:52.077020669+09:00
 imports:
 - name: github.com/patrickmn/go-cache
   version: 7ac151875ffb48b9f3ccce9ea20f020b0c1596c8
+- name: google.golang.org/appengine
+  version: d9a072cfa7b9736e44311ef77b3e09d804bfa599
 testImports: []
