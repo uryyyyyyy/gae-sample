@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	"sample1"
-	"appengine"
+	"google.golang.org/appengine"
 )
 
 func init() {
