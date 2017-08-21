@@ -1,3 +1,4 @@
 package: .
 import:
 - package: github.com/patrickmn/go-cache
+  version: 7ac151875ffb48b9f3ccce9ea20f020b0c1596c8
