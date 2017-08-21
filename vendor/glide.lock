@@ -1,8 +1,12 @@
-hash: 0843d496952af3c10680897f530353eed9279c0f10778fdc03ce885c3ad3ed5f
-updated: 2017-08-21T15:12:52.077020669+09:00
+hash: aced180a70b68376595b48c23681c8fce2f781a6b5e96d005976033ff4bac29c
+updated: 2017-08-21T15:19:22.974965363+09:00
 imports:
+- name: github.com/golang/protobuf
+  version: ab9f9a6dab164b7d1246e0e688b0ab7b94d8553e
 - name: github.com/patrickmn/go-cache
   version: 7ac151875ffb48b9f3ccce9ea20f020b0c1596c8
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
 - name: google.golang.org/appengine
   version: d9a072cfa7b9736e44311ef77b3e09d804bfa599
 testImports: []
