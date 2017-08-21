@@ -5,7 +5,7 @@ import (
 	"appengine/aetest"
 	"strings"
 	"net/http/httptest"
-	"appengine"
+	"google.golang.org/appengine"
 )
 
 func TestSample1(t *testing.T) {
