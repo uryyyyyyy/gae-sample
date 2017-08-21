@@ -16,4 +16,4 @@ dependencies:
 
 test:
   override:
-    - ./commands/sample1_test.sh
+    - ./commands/test_sample1.sh
